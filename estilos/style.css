@@ -1,0 +1,13 @@
+*{
+    background-color: cadetblue;
+
+}
+
+#tituloPrincipalC{
+    text-align: center;
+}
+
+.tituloCancion, .contenidoCancion{
+    text-align: center;
+    font-size: 16px;
+}
