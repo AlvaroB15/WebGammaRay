@@ -1,6 +1,31 @@
 *{
-    background-color: cadetblue;
+    background-color: #1c1c1c;
+    color: white;
+    /* border: 1px solid red; */
+}
 
+header{
+    padding-top: 40px;
+}
+
+#logoGammaRay{
+    padding-left: 50px;
+}
+
+nav{
+    display: inline-block;
+    padding-left: 440px;
+}
+
+#listaMenu {
+    display: inline-block;
+    font-size: 15px;
+    text-decoration: none;
+    padding: 0px 10px;
+}
+
+#listaMenu a{
+    text-decoration: none;
 }
 
 #tituloPrincipalC{
