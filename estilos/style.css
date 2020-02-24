@@ -1,7 +1,25 @@
 *{
     background-color: #1c1c1c;
     color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: oblique;
     /* border: 1px solid red; */
+}
+
+pre{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
+figure{
+    text-align: center;
+    /* display: inline-block; */
+    float: left;
+}
+
+figcaption{
+    font-style: oblique;
+    color: #ffd700;
 }
 
 header{
@@ -12,27 +30,64 @@ header{
     padding-left: 50px;
 }
 
+
 nav{
     display: inline-block;
-    padding-left: 440px;
+    padding-left: 330px;
 }
 
 #listaMenu {
     display: inline-block;
-    font-size: 15px;
+    font-size: 17px;
     text-decoration: none;
     padding: 0px 10px;
+    font-style: oblique;
+    font-weight: bold;
 }
 
 #listaMenu a{
     text-decoration: none;
 }
 
-#tituloPrincipalC{
-    text-align: center;
+
+
+
+
+
+h2{
+    font-size: 18px;
 }
 
-.tituloCancion, .contenidoCancion{
+footer p{
+    font-size: 14px;
     text-align: center;
-    font-size: 16px;
+    color: #ffd700;
+}
+
+#Introduccion{
+    font-size: 17px;
+}
+
+.primerP{
+    display: inline-block;
+    /* float: left; */
+}
+
+
+
+#tituloPrincipalC{
+    text-align: center;
+    font-size: 35px;
+}
+
+.tituloCancion{
+    text-align: center;
+    font-size: 22px;
+    color: #ffd700;
+}
+
+.contenidoCancion{
+    text-align: center;
+    font-size: 19px;
+    padding-bottom: 12px;
 }
