@@ -47,7 +47,7 @@ figure img{
 
 nav{
     display: inline-block;
-    padding-left: 330px;
+    padding-left: 230px;
 }
 
 #listaMenu {
@@ -62,7 +62,18 @@ nav{
 #listaMenu a{
     text-decoration: none;
 }
+/* 
+.mp{
+    margin: 0px auto;
+}
+.musica{
+    width: 200 px;
+    margin: 0px auto;
+} */
 
+.yt{
+
+}
 
 /* Son la info de la banda Gamma Ray */
 
@@ -74,10 +85,6 @@ pre{
     font-size: 17px;
 }
 
-.parrafo{
-    /* display: inline-block; */
-    /* float: left; */
-}
 
 /*
     Estilos propios de letrasCanciones.html
@@ -107,7 +114,9 @@ pre{
 
 
 
-/* GALERIA ENCONTRADA EN GOOGLE xd */
+/* GALERIA ENCONTRADA EN GOOGLE xd
+    Fuente : http://w3.unpocodetodo.info/css3/galeria-de-imagenes-css1.php/* 
+*/
 
 * {
     background-color:#333;
