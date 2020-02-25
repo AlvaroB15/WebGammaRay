@@ -121,7 +121,7 @@ pre{
     position: relative;  
   }
   
-  .galeria figure img {
+  .galeria img {
     position: absolute;
     top: 0;
     left: 0;
