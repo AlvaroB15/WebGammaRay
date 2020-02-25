@@ -52,15 +52,21 @@ nav{
 
 #listaMenu {
     display: inline-block;
-    font-size: 21px;
-    text-decoration: none;
+    /* text-decoration: none; */
     padding: 0px 10px;
+    /* font-size: 21px;
     font-style: oblique;
     font-weight: bold;
+    color: #ffd700; */
 }
 
 #listaMenu a{
     text-decoration: none;
+
+    font-size: 21px;
+    font-style: oblique;
+    font-weight: bold;
+    color: #ffd700;
 }
 /* 
 .mp{
@@ -75,6 +81,10 @@ nav{
 
 pre{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.espacioFinal{
+    padding-bottom: 25px;
 }
 
 #Introduccion{
