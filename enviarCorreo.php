@@ -9,4 +9,12 @@
     print "Tu compra ha sido correcta $nombres con correo de $correo .";
     // print "Codigo ";
 
+
 ?>
+
+<pre>
+
+
+</pre>
+
+<p><a href="index.html">Regresar al Home</a></p>
