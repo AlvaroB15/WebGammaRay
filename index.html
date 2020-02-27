@@ -20,16 +20,22 @@
                 <li id="listaMenu"><a href="otrosHtml/discografia.html">Discografia</a></li>
                 <li id="listaMenu"><a href="otrosHtml/letrasCanciones.html">Letra de Canciones</a></li>
                 <li id="listaMenu"><a href="otrosHtml/apoyo.html">Apoya al Grupo</a></li>
+                <li id="usuario">Usuario(FALTA)</li>
+                <!-- 
+                    Este haremos para que e usuario se cree una cuenta o inicie sesion a ella, para poder hacer las compras, 
+                    ademas podra darle me gusta a las canciones que le gusta, tanto a los conciertos y las letras, etc.
+
+                 -->
             </ul>
         </nav>
 
     </header>
 
     <article>
-
         <h1>Historia de Gamma Ray</h1>
 
-        <p id="Introduccion">Gamma Ray. Banda alemana iniciadora de la ola de grupos de Heavy Metal melódico, o también denominado con el
+        <p id="Introduccion">Gamma Ray. Banda alemana iniciadora de la ola de grupos de Heavy Metal melódico, o también
+            denominado con el
             controvertido nombre de Power Metal. Fundada en 1989. </p>
 
         <h2>Inicios</h2>
@@ -58,7 +64,8 @@
         </p>
 
 
-        <p class="parrafo">El 26 de febrero de 1990 salió a la luz la placa “Heading For Tommorrow”, de un grupo llamado simplemente
+        <p class="parrafo">El 26 de febrero de 1990 salió a la luz la placa “Heading For Tommorrow”, de un grupo llamado
+            simplemente
             “Gamma Ray” (nombre que viene de la canción de un grupo alemán llamado Birth Control).
 
             La producción estaría a cargo del mismo Hansen (ayudado por Tommy Newton), cuya banda se perfilaba más como
@@ -84,9 +91,33 @@
             Aquí se notan en las letras cierto melancolismo, provocado por la reciente Guerra del Golfo (como en “We
             Won’t Stop The War”). Destacan cortes como “Changes”, “One With The World”, entre otras. </p>
     </article>
-    
+
+    <!-- Se mandara un formulario para quejas, o un feedback para poder mejorar el diseño o ideas a cambiar en la web -->
+
+    <div class="container-correo">
+
+        <form id="item-form" action="enviarCorreo.php" method="post">
+
+            <label id="label" for="nombres">Nombres: </label>
+            <input type="text" name="nombres" id="nombres">
+
+            <label id="label" for="coreo">Correo: </label>
+            <input type="text" name="correo" id="correo">
+
+            <label id="label" for="contenido">Contenido: </label>
+            <!-- <input type="text" name="contenido" id="contenido"> -->
+            <textarea name="contenido" id="contenido" cols="30" rows="10"></textarea>
+
+            <input type="submit" value="Enviar">
+
+            <!-- <button type="submit">Enviar</button>
+            <button>Enviar</button> -->
+        </form>
+
+    </div>
+
     <div class="espacioFinal"></div>
-    
+
     <footer>
         <p>Derechos Reservados a Gamma Ray</p>
     </footer>

@@ -1,5 +1,5 @@
 *{
-    background-color: #1c1c1c;
+    background-color:#333;
     color: white;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-style: oblique;
@@ -18,6 +18,7 @@ footer p{
     font-size: 14px;
     text-align: center;
     color: #ffd700;
+    padding-bottom: 15px;
 }
 
 /* Estilos para las fotos  */
@@ -47,7 +48,7 @@ figure img{
 
 nav{
     display: inline-block;
-    padding-left: 230px;
+    padding-left: 370px;
 }
 
 #listaMenu {
@@ -68,6 +69,17 @@ nav{
     font-weight: bold;
     color: #ffd700;
 }
+
+#usuario{
+    display: inline-block;
+    color: red;
+    /* text-decoration: none; */
+}
+
+ul{
+    list-style: none;
+}
+
 /* 
 .mp{
     margin: 0px auto;
@@ -119,14 +131,37 @@ pre{
 
 
 
+.container-correo *{
+    /* background-color: #1c1c1c; */
+    /* display: block; */
+    background-color: #1c1c1c;
+    /* background-color: black; */
+}
+
+#item-form{
+    /* padding: 200px; */
+    margin: 70px 250px;
+    padding: 20px 0px;
+}   
+
+
+
+.container-correo input, #contenido{
+    display: block;
+    margin: 20px 90px;
+}
+
+#label{
+    padding-left: 30px;
+    /* display: inline; */
+}
+
+
 
 /* GALERIA ENCONTRADA EN GOOGLE xd
     Fuente : http://w3.unpocodetodo.info/css3/galeria-de-imagenes-css1.php/* 
 */
 
-* {
-    background-color:#333;
-  }
   
   .galeria {
     height: calc( var(--h) + 3em);
