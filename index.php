@@ -15,11 +15,11 @@
         <nav>
             <ul>
                 <li id="listaMenu"><a href="#">Home</a></li> <!-- incluira la historia con pocas imagenes -->
-                <li id="listaMenu"><a href="otrosHtml/galeria.html">Galeria</a></li>
-                <li id="listaMenu"><a href="otrosHtml/conciertos.html">Conciertos</a></li>
-                <li id="listaMenu"><a href="otrosHtml/discografia.html">Discografia</a></li>
-                <li id="listaMenu"><a href="otrosHtml/letrasCanciones.html">Letra de Canciones</a></li>
-                <li id="listaMenu"><a href="otrosHtml/apoyo.html">Apoya al Grupo</a></li>
+                <li id="listaMenu"><a href="otrosHtml/galeria.php">Galeria</a></li>
+                <li id="listaMenu"><a href="otrosHtml/conciertos.php">Conciertos</a></li>
+                <li id="listaMenu"><a href="otrosHtml/discografia.php">Discografia</a></li>
+                <li id="listaMenu"><a href="otrosHtml/letrasCanciones.php">Letra de Canciones</a></li>
+                <li id="listaMenu"><a href="otrosHtml/apoyo.php">Apoya al Grupo</a></li>
                 <li id="usuario">Usuario(FALTA)</li>
                 <!-- 
                     Este haremos para que e usuario se cree una cuenta o inicie sesion a ella, para poder hacer las compras, 

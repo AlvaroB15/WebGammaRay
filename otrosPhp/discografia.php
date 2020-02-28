@@ -12,12 +12,13 @@
 
         <nav>
             <ul>
-                <li id="listaMenu"><a href="../index.html">Home</a></li> <!-- incluira la historia con pocas imagenes -->
-                <li id="listaMenu"><a href="galeria.html">Galeria</a></li>
-                <li id="listaMenu"><a href="conciertos.html">Conciertos</a></li>
-                <li id="listaMenu"><a href="discografia.html">Discografia</a></li>
-                <li id="listaMenu"><a href="letrasCanciones.html">Letra de Canciones</a></li>
-                <li id="listaMenu"><a href="apoyo.html">Apoya al Grupo</a></li>
+                <li id="listaMenu"><a href="../index.php">Home</a></li>
+                <!-- incluira la historia con pocas imagenes -->
+                <li id="listaMenu"><a href="galeria.php">Galeria</a></li>
+                <li id="listaMenu"><a href="conciertos.php">Conciertos</a></li>
+                <li id="listaMenu"><a href="discografia.php">Discografia</a></li>
+                <li id="listaMenu"><a href="letrasCanciones.php">Letra de Canciones</a></li>
+                <li id="listaMenu"><a href="apoyo.php">Apoya al Grupo</a></li>
             </ul>
         </nav>
 

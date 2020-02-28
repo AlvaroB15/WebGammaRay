@@ -17,4 +17,4 @@
 
 </pre>
 
-<p><a href="index.html">Regresar al Home</a></p>
+<p><a href="index.php">Regresar al Home</a></p>
