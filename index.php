@@ -81,7 +81,7 @@
 
     <div class="container-correo">
 
-        <form id="item-form" action="./enviarCorreo.php" method="post">
+        <form id="item-form" action="./procesos/enviarCorreo.php" method="post">
 
             <label id="label" for="nombres">Nombres: </label>
             <input type="text" name="nombres" id="nombres">

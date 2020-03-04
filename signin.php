@@ -1,20 +1,48 @@
+
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Registro de Usuarios</title>
+    <link rel="stylesheet" href="estilos/style.css">
 </head>
+
 <body>
+    <header>
+
+        <?php require('cabeceraRaiz.php') ?>
+
+    <!-- Se mandara un formulario para quejas, o un feedback para poder mejorar el diseño o ideas a cambiar en la web -->
+
     <center>
         
-        <label for="">Correo: </label>
-        <input type="text" name="correo" id="corre">
+        <p1>Acceso a Usuario</p1>
 
-        <label for="">Contraseña: </label>
-        <input type="text" name="contrasenna" id="contrasenna">
+        <form action="procesos/consultar.php" method="post">
 
+            <p><label for="correo">Correo: </label>
+                <input type="text" name="correo" id="correo" required></p>
+
+            <p><label for="contrasenna">Contraseña: </label>
+                <input type="password" name="contrasenna" id="contrasenna" required></p>
+
+            <p><input type="submit" value="Enviar"></p>
+
+        </form>
 
     </center>
+        
+    </header>
+
+
+    <div class="espacioFinal"></div>
+
+    <footer>
+        <p>Derechos Reservados a Gamma Ray</p>
+    </footer>
+
 </body>
+
 </html>
