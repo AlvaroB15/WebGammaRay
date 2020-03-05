@@ -10,6 +10,11 @@ h2 {
   font-size: 18px;
 }
 
+h3{
+  font-size: 15px;
+  color: #ffd700;
+}
+
 header {
   padding-top: 40px;
 }

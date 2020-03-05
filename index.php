@@ -17,7 +17,7 @@
     </header>
 
     <article>
-        <h1>Historia de Gamma Ray</h1>
+        <h1>&#39Historia de Gamma Ray</h1>
 
         <p id="Introduccion">Gamma Ray. Banda alemana iniciadora de la ola de grupos de Heavy Metal melódico, o también
             denominado con el
