@@ -12,7 +12,13 @@ $fechas = $fecha->format('Y-m-d h:i:s'); // Modelo para el insertado de la fecha
 
 echo "Antes de la conexion ";
 
+// Conexion de forma Remota
 $conexion = new PDO("pgsql:dbname=d5435khnem8n0s;host=ec2-34-235-108-68.compute-1.amazonaws.com","rmyapjqexavwbp","965e4cd2f4648b57839d2bc78959d8f97acaecfcf0def9b691d372e93f0b339c");
+
+// Conexion de foma Local
+$conexion = new PDO("pgsql:dbname=d5435khnem8n0s;host=ec2-34-235-108-68.compute-1.amazonaws.com","rmyapjqexavwbp","965e4cd2f4648b57839d2bc78959d8f97acaecfcf0def9b691d372e93f0b339c");
+
+
 $conexion->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 
 echo "Luego de la conexion ";
