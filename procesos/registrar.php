@@ -6,7 +6,8 @@ $celular = $_POST['celular'];
 $email = $_POST['correo'];
 $contra = $_POST['contrasenna'];
 
-$conexion = mysqli_connect('localhost', 'root', '', 'gamma_ray');
+$conexion = new PDO("pgsql:dbname=gamma-ray;host=localhost","postgres","root");
+
 
 echo "EMAIL: ", $email, "<br>";
 echo "CONTRASENNA: ", $contra, "<br>";
