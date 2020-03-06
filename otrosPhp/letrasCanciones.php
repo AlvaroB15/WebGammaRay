@@ -32,13 +32,18 @@
             <!-- <input type="submit" value="Buscar"> -->
 
         </form>
+
+        <p>Solo estan disponuibles las canciones y sus respectivos audios, hasta ahora, se debe escribir igual...</p>
+        <p>Anywhere In The Galaxy/p>
+        <p>Insurrection</p>
     </center>
+
 
     <br>
     <br>
     <div class="tituloCancion">
         <?php require('obtenerTitulo.php') ?>
-        <?php foreach($titulo as $titulos){ ?>
+        <?php foreach ($titulo as $titulos) { ?>
             <?php echo $titulos->nombre_cancion ?>
         <?php } ?>
     </div>
@@ -57,7 +62,7 @@
 
     <div class="contenidoCancion">
         <?php require('obteniendoCanciones.php') ?>
-        <?php foreach($letra as $letras){ ?>
+        <?php foreach ($letra as $letras) { ?>
             <?php echo $letras->letra_cancion ?>
         <?php } ?>
     </div>

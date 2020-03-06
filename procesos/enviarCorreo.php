@@ -14,21 +14,7 @@ echo "Antes de la conexion <br>";
 
 // Conexion de forma Remota
 
-$conexion = new PDO("pgsql:dbname=d5435khnem8n0s;host=ec2-34-235-108-68.compute-1.amazonaws.com","rmyapjqexavwbp","965e4cd2f4648b57839d2bc78959d8f97acaecfcf0def9b691d372e93f0b339c");
-
-
-
-// $conexion = new PDO("pgsql:dbname=postgres;host=localhost","postgres","");
-
-// $dbh->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
-
-
-
-
-
-// $base_de_datos = new PDO("pgsql:host=$rutaServidor;dbname=$nombreBaseDeDatos", $usuario, $contraseña);
-
-// $base_de_datos = new PDO("pgsql:host='localhost';port='5432';dbname='postgres'", "postgres", "");
+$conexion = new PDO("pgsql:dbname=d5435khnem8n0s;host=ec2-34-235-108-68.compute-1.amazonaws.com", "rmyapjqexavwbp", "965e4cd2f4648b57839d2bc78959d8f97acaecfcf0def9b691d372e93f0b339c");
 
 echo "Luego de la primera linea de conexion";
 
@@ -44,10 +30,10 @@ $resultado = $sentencia->execute([$nombres, $correo, $contenido, $fechas]);
 echo "luego del query";
 
 
-echo "Nombre: ", $nombres, "<br>"; 
+echo "Nombre: ", $nombres, "<br>";
 echo "Correo: ", $correo, "<br>";
 echo "contenido: ", $contenido, "<br>";
-echo "Fecha: ",$fechas, "<br>";
+echo "Fecha: ", $fechas, "<br>";
 
 echo "<br>";
 echo "<br>";

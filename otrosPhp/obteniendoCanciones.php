@@ -17,29 +17,9 @@ if (!$conexion) {
 $sentencia = $conexion->query("SELECT letra_cancion FROM cancion WHERE nombre_cancion='$nombreC' ");
 $letra = $sentencia->fetchAll(PDO::FETCH_OBJ);
 
-
-
-
-/*
-$read = "SELECT letra_cancion FROM cancion WHERE nombre_cancion='$nombreC' ";
-
-// echo "LOS DATOS DE LA TABLA ATENCION";
-
-$consult = $conexion->query($read);
-
-while ($f = $consult->fetch_assoc()) {
-    print "{$f["letra_cancion"]}";
-    echo "<br>";
-}
-
-mysqli_close($conexion);
-*/
-
 ?>
 
 <pre>
 
 
 </pre>
-
-<a href="login.php">VOLVER A MENU</a>
