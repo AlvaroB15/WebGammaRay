@@ -1,4 +1,10 @@
+<!-- DOCUEMNTOS PARA MIRAR LA CONEXION DE POSTGRESQL CON PHP
 
+    https://parzibyte.me/blog/2019/06/17/conectar-postgresql-php-pdo-crud/
+
+    https://w3resource.com/PostgreSQL/PostgreSQL-with-php-a-through-introduction.php
+    
+ -->
 <!DOCTYPE html>
 <html lang="es">
 
