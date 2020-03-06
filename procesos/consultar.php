@@ -3,6 +3,8 @@
 $email = $_POST['correo'];
 $contra = $_POST['contrasenna'];
 
+
+
 $conexion = mysqli_connect('localhost', 'root', '', 'gamma_ray');
 
 echo "EMAIL: ", $email, "<br>";
