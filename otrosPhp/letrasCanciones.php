@@ -73,7 +73,7 @@
 
     <div class="espacioFinal"></div>
 
-    <?php require('footer.php') ?>
+    <?php require('footerOtros.php') ?>
 
 </body>
 
