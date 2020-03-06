@@ -34,9 +34,9 @@ while ($f = $consult->fetch_assoc()) {
     print "{$f["nombre_cancion"]}";
 }
 
-mysqli_close($conexion);  ?>
+mysqli_close($conexion);  
 */
-
+?>
 
 
 
