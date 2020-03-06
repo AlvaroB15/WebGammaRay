@@ -1,11 +1,14 @@
 <!-- TREMENDA WEB SOBRE LA CONEXION DE POSTGRESQL CON PHP -->
 <!-- https://parzibyte.me/blog/2019/06/17/conectar-postgresql-php-pdo-crud/ -->
 
+
 <?php
 echo "Estoy en el branch de PostgreSql<br>";
 $nombres =  $_POST['nombres'];
 $correo =  $_POST['correo'];
 $contenido =  $_POST['contenido'];
+
+date_default_timezone_set("America/Lima");
 
 $fecha = new DateTime();
 $fechas = $fecha->format('Y-m-d h:i:s'); // Modelo para el insertado de la fecha en la base de datos'2020-02-25 03:11:15'
