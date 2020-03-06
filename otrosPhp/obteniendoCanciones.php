@@ -15,7 +15,8 @@ if (!$conexion) {
 }
 
 $sentencia = $conexion->query("SELECT letra_cancion FROM cancion WHERE nombre_cancion='$nombreC' ");
-$mascotas = $sentencia->fetchAll(PDO::FETCH_OBJ);
+$letra = $sentencia->fetchAll(PDO::FETCH_OBJ);
+
 
 
 

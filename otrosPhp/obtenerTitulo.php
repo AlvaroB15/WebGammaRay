@@ -12,7 +12,7 @@ $conexion = new PDO("pgsql:dbname=d5435khnem8n0s;host=ec2-34-235-108-68.compute-
 // $conexion = mysqli_connect('localhost', 'root', '', 'gamma_ray');
 
 $sentencia = $conexion->query("SELECT nombre_cancion FROM cancion WHERE nombre_cancion='$nombreA'");
-$mascotas = $sentencia->fetchAll(PDO::FETCH_OBJ);
+$titulo = $sentencia->fetchAll(PDO::FETCH_OBJ);
 
 
 if (!$conexion) {

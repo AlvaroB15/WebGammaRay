@@ -38,6 +38,8 @@
     <br>
     <div class="tituloCancion">
         <?php require('obtenerTitulo.php') ?>
+        <?php foreach($titulo as $titulos){ ?>
+            <?php echo $titulos->nombre_cancion ?>
     </div>
 
     <br>
@@ -54,6 +56,8 @@
 
     <div class="contenidoCancion">
         <?php require('obteniendoCanciones.php') ?>
+        <?php foreach($letra as $letras){ ?>
+            <?php echo $letras->letra_cancion ?>
     </div>
 
     <pre>
