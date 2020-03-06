@@ -32,9 +32,9 @@
             <!-- <input type="submit" value="Buscar"> -->
 
         </form>
-
-        <p>Solo estan disponuibles las canciones y sus respectivos audios, hasta ahora, se debe escribir igual...</p>
-        <p>Anywhere In The Galaxy/p>
+        <p></p>
+        <p>Solo estan disponibles las canciones y sus respectivos audios, hasta ahora, se debe escribir igual: </p>
+        <p>Anywhere In The Galaxy</p>
         <p>Insurrection</p>
     </center>
 
@@ -49,7 +49,7 @@
     </div>
 
     <br>
-    <br>
+    <!-- <br> -->
 
 
     <center>
@@ -73,6 +73,7 @@
 
     <div class="espacioFinal"></div>
 
+    <?php require('footer.php') ?>
 
 </body>
 

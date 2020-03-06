@@ -29,7 +29,11 @@
 
     </article>
 
-    <div class="espacioFinal"></div>    
+
+    <div class="espacioFinal"></div>
+
+    <?php require('footer.php') ?>
+
 
 </body>
 

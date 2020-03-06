@@ -25,21 +25,20 @@
         <center>
             <h3>Anywhere in the Galaxy - Ubicacion Desconocida</h3>
 
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/pPULEde8Tw8" frameborder="0"
-                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                allowfullscreen></iframe>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/pPULEde8Tw8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             <!-- 
             <iframe class="yt" width="560" height="315" src="https://www.youtube.com/embed/8UjK-5gauZ0" frameborder="0"
                 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
                 allowfullscreen></iframe> -->
 
             <h3>GAMMA RAY live at gods of metal 1998 - Milano (Italy)</h3>
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/ScFLsGMZtEg" frameborder="0"
-                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                allowfullscreen></iframe>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/ScFLsGMZtEg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </center>
 
         <div class="espacioFinal"></div>
+
+        <?php require('footer.php') ?>
+
 
     </article>
 

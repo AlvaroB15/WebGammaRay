@@ -42,6 +42,9 @@
 
     <div class="espacioFinal"></div>
 
+    <?php require('footer.php') ?>
+
+
 </body>
 
 </html>

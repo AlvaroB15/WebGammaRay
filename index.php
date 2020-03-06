@@ -103,9 +103,7 @@
 
     <div class="espacioFinal"></div>
 
-    <footer>
-        <p>Derechos Reservados a Gamma Ray</p>
-    </footer>
+    <?php require('footer.php') ?>
 
 </body>
 
