@@ -12,7 +12,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gamma Ray</title>
-    <link rel="stylesheet" href="estilos/style.css">
+    <link rel="stylesheet" href="/estilos/style.css">
 </head>
 
 <body>
@@ -32,7 +32,7 @@
         <h2>Inicios</h2>
 
         <figure>
-            <img class="imagenes" src="Imagenes/primeraAineacion.jpeg" alt="Primera Alineacion de la banda Gamma Ray">
+            <img class="imagenes" src="/Imagenes/primeraAineacion.jpeg" alt="Primera Alineacion de la banda Gamma Ray">
             <figcaption>Primera Alineacion de la banda Gamma Ray</figcaption>
         </figure>
 
@@ -87,7 +87,7 @@
 
     <div class="container-correo">
 
-        <form id="item-form" action="./procesos/enviarCorreo.php" method="post">
+        <form id="item-form" action="/procesos/enviarCorreo.php" method="post">
 
             <label id="label" for="nombres">Nombres: </label>
             <input type="text" name="nombres" id="nombres">
