@@ -109,7 +109,7 @@
 
     <div class="espacioFinal"></div>
 
-    <?php require('footer.php') ?>
+    <?php require('empaquetado/footer') ?>
 
 </body>
 
