@@ -11,7 +11,7 @@
 <body>
     <header>
 
-        <?php require('cabeceraRaiz.php') ?>
+    <?php require('../empaquetado/cabecera.php') ?>
 
     </header>
 
@@ -25,6 +25,11 @@
         <li id="listaMenu"><a href="signin.php">Sign In</a></li>
         <li id="listaMenu"><a href="signup.php">Sign Up</a></li>
     </ul>
+    
+
+    <div class="espacioFinal"></div>
+
+    <?php require('../empaquetado/footer.php') ?>
 
 </body>
 

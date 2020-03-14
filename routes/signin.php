@@ -1,31 +1,26 @@
+
 <!DOCTYPE html>
 <html lang="es">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Acceso de Usuarios</title>
+    <title>Registro de Usuarios</title>
     <link rel="stylesheet" href="estilos/style.css">
 </head>
 
 <body>
     <header>
 
-        <?php require('cabeceraRaiz.php') ?>
+        <?php require('../empaquetado/cabecera.php') ?>
 
-    </header>
+    <!-- Se mandara un formulario para quejas, o un feedback para poder mejorar el diseño o ideas a cambiar en la web -->
 
     <center>
+        
+        <p1>Acceso a Usuario</p1>
 
-        <p1>Creadno un Usuario</p1>
-
-        <form action="procesos/registrar.php" method="post">
-
-            <p><label for="nombres">Nombres: </label>
-                <input type="text" name="nombres" id="nombres" required></p>
-
-            <p><label for="celular">Celular: </label>
-                <input type="text" name="celular" id="celular" required></p>
+        <form action="procesos/consultar.php" method="post">
 
             <p><label for="correo">Correo: </label>
                 <input type="text" name="correo" id="correo" required></p>
@@ -38,6 +33,14 @@
         </form>
 
     </center>
+        
+    </header>
+
+
+    <div class="espacioFinal"></div>
+
+    <?php require('../empaquetado/footer.php') ?>
+
 </body>
 
 </html>

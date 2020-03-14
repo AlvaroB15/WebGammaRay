@@ -42,7 +42,7 @@
     <br>
     <br>
     <div class="tituloCancion">
-        <?php require('obtenerTitulo.php') ?>
+        <?php require('../procesos/obtenerTitulo.php') ?>
         <?php foreach ($titulo as $titulos) { ?>
             <?php echo $titulos->nombre_cancion ?>
         <?php } ?>
@@ -61,7 +61,7 @@
     </center>
 
     <div class="contenidoCancion">
-        <?php require('obteniendoCanciones.php') ?>
+        <?php require('../procesos/obteniendoCanciones.php') ?>
         <?php foreach ($letra as $letras) { ?>
             <?php echo $letras->letra_cancion ?>
         <?php } ?>

@@ -11,7 +11,7 @@
 <body>
     <header>
 
-        <?php require('cabecera.php') ?>
+        <?php require('../empaquetado/cabecera.php') ?>
         
 
     </header>
@@ -32,7 +32,7 @@
 
     <div class="espacioFinal"></div>
 
-    <?php require('footerOtros.php') ?>
+    <?php require('../empaquetado/footer.php') ?>
 
 
 </body>
