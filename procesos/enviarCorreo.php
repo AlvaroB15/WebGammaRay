@@ -8,6 +8,12 @@ $nombres =  $_POST['nombres'];
 $correo =  $_POST['correo'];
 $contenido =  $_POST['contenido'];
 
+// Variables para mandar correo
+$destinatario = 'alvaro15unmsm@gmail.com';
+$asunto = 'Opinion de ' .$nombres;
+$header = "Tienes un nueva queja del usuario ".$nombres. "<br>Opinion:<br>";
+$mensajeCompleto = $contenido. '<br><br>Atentamente la web https://web-gammaray.herokuapp.com/';
+
 date_default_timezone_set("America/Lima");
 
 $fecha = new DateTime();
@@ -46,11 +52,20 @@ echo "<br>";
 echo "<br>";
 echo "<br>";
 echo "<br>";
-echo "CONSULTA COMPLETADA CON EXITO";  ?>
+echo "CONSULTA COMPLETADA CON EXITO"; 
+
+
+mail($destinatario,$asunto,$mensajeCompleto,$header);
+echo '<script> alert("Correo enviado exitosamente") </script>';
+echo "<script> setTimeout(\"location.href='/index.php'\",1000)</script>";
+
+?>
+
+
 
 <pre>
 
 
 </pre>
 
-<a href="index.php">VOLVER A MENU</a>
+<a href="/index.php">VOLVER A MENU</a>
