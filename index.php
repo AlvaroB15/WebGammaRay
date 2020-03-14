@@ -10,7 +10,7 @@
 
 <body>
     <header>
-        <?php require('/empaquetado/cabecera.php') ?>
+        
     </header>
 
     <article>
@@ -100,7 +100,7 @@
 
     <div class="espacioFinal"></div>
 
-    <?php require('/empaquetado/footer.php') ?>
+    
 
 </body>
 
