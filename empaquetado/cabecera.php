@@ -2,13 +2,13 @@
 
 <nav id="menNav">
     <ul>
-        <li id="listaMenu"><a href="index.php">Home</a></li> <!-- incluira la historia con pocas imagenes -->
-        <li id="listaMenu"><a href="routes/galeria.php">Galeria</a></li>
-        <li id="listaMenu"><a href="routes/conciertos.php">Conciertos</a></li>
-        <li id="listaMenu"><a href="routes/discografia.php">Discografia</a></li>
-        <li id="listaMenu"><a href="routes/letrasCanciones.php">Letra de Canciones</a></li>
-        <li id="listaMenu"><a href="routes/apoyo.php">Apoya al Grupo</a></li>
-        <li id="listaMenu"><a href="routes/login.php">Usuarios</a>
+        <li id="listaMenu"><a href="/index.php">Home</a></li> <!-- incluira la historia con pocas imagenes -->
+        <li id="listaMenu"><a href="/routes/galeria.php">Galeria</a></li>
+        <li id="listaMenu"><a href="/routes/conciertos.php">Conciertos</a></li>
+        <li id="listaMenu"><a href="/routes/discografia.php">Discografia</a></li>
+        <li id="listaMenu"><a href="/routes/letrasCanciones.php">Letra de Canciones</a></li>
+        <li id="listaMenu"><a href="/routes/apoyo.php">Apoya al Grupo</a></li>
+        <li id="listaMenu"><a href="/routes/login.php">Usuarios</a>
             <!-- <ul>
                         <li id=""><a href="signin.php">Sign In</a></li>
                         <li id=""><a href="signup.php">Sign Up</a></li>
