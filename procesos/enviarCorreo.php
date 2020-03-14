@@ -70,18 +70,23 @@ echo "CONSULTA COMPLETADA CON EXITO";
 $destinatario = 'alvaro15unmsm@gmail.com';
 $asunto = 'Opinion de ' .$nombres;
 $header = "From: noreply@example.com" . "\r\n";
-$header.= "Reply-to: ".$correo. "\r\n";
+$header.= "Reply-to: noreply@example.com". "\r\n";
 $header.= "X-Mailer: PHP/". phpversion();
 
 
 // $header = "Tienes un nueva queja del usuario ".$nombres. "<br>Opinion:<br>";
 $mensajeCompleto = $contenido. '<br><br>Atentamente la web https://web-gammaray.herokuapp.com/';
 
-$mail = mail($destinatario,$asunto,$mensajeCompleto,$header);
-if($mail){
-    echo '<script> alert("Correo enviado exitosamente") </script>';
-    echo "<script> setTimeout(\"location.href='/index.php'\",1000)</script>";
-}
+// $mail = mail($destinatario,$asunto,$mensajeCompleto,$header);
+// if($mail){
+//     echo '<script> alert("Correo enviado exitosamente") </script>';
+//     echo "<script> setTimeout(\"location.href='/index.php'\",1000)</script>";
+// }
+
+mail($destinatario,$asunto,$mensajeCompleto,$header);
+
+echo '<script> alert("Correo enviado exitosamente") </script>';
+echo "<script> setTimeout(\"location.href='/index.php'\",1000)</script>";
 
 
 ?>
